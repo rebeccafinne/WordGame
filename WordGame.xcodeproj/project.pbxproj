@@ -14,6 +14,8 @@
 		04E66C8E1FB22ABD004F7C56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E66C8C1FB22ABD004F7C56 /* LaunchScreen.storyboard */; };
 		04E66C991FB22ABE004F7C56 /* WordGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E66C981FB22ABE004F7C56 /* WordGameTests.swift */; };
 		04E66CA41FB22ABE004F7C56 /* WordGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E66CA31FB22ABE004F7C56 /* WordGameUITests.swift */; };
+		04E66CB61FB23A11004F7C56 /* play_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E66CB51FB23A10004F7C56 /* play_button.png */; };
+		04E66CB81FB23B3B004F7C56 /* playView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04E66CB71FB23B3B004F7C56 /* playView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		04E66C9F1FB22ABE004F7C56 /* WordGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E66CA31FB22ABE004F7C56 /* WordGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordGameUITests.swift; sourceTree = "<group>"; };
 		04E66CA51FB22ABE004F7C56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E66CB51FB23A10004F7C56 /* play_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = play_button.png; path = ../../../../../Users/rebeccafinne/Desktop/play_button.png; sourceTree = "<group>"; };
+		04E66CB71FB23B3B004F7C56 /* playView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = playView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +106,9 @@
 				04E66C871FB22ABD004F7C56 /* Main.storyboard */,
 				04E66C8A1FB22ABD004F7C56 /* Assets.xcassets */,
 				04E66C8C1FB22ABD004F7C56 /* LaunchScreen.storyboard */,
+				04E66CB51FB23A10004F7C56 /* play_button.png */,
 				04E66C8F1FB22ABE004F7C56 /* Info.plist */,
+				04E66CB71FB23B3B004F7C56 /* playView.xib */,
 			);
 			path = WordGame;
 			sourceTree = "<group>";
@@ -232,9 +238,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04E66CB81FB23B3B004F7C56 /* playView.xib in Resources */,
 				04E66C8E1FB22ABD004F7C56 /* LaunchScreen.storyboard in Resources */,
 				04E66C8B1FB22ABD004F7C56 /* Assets.xcassets in Resources */,
 				04E66C891FB22ABD004F7C56 /* Main.storyboard in Resources */,
+				04E66CB61FB23A11004F7C56 /* play_button.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
